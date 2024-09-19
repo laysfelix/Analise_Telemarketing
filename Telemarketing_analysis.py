@@ -48,7 +48,7 @@ def to_excel(df):
 def main():
     # Configuração inicial da página da aplicação
     st.set_page_config(page_title = 'Telemarketing analisys', \
-        page_icon = '../img/telmarketing_icon.png',
+        page_icon = 'https://raw.githubusercontent.com/laysfelix/Analise_Telemarketing/refs/heads/main/img/telmarketing_icon.png',
         layout="wide",
         initial_sidebar_state='expanded'
     )
